@@ -1,0 +1,62 @@
+.square {
+    border-radius: 0.5rem;
+    background: darkseagreen;
+    color: lightgoldenrodyellow;
+    border: solid white;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+}
+
+.board{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.form-center{
+    padding: 2rem;
+    border-radius: 10px;
+    border: solid burlywood;
+    background-color: lightgoldenrodyellow;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-center{
+    text-align: center;
+}
+h1.header{
+    font-family: Pacifico;
+    font-size: 3rem;
+    color: darkseagreen;
+}
+
+.status{
+    color: darkseagreen;
+    font-family: Quicksand;
+}
+
+h1.status{
+    color: burlywood;
+}
+
+.buttonreset{
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border:1px solid darkseagreen;
+    border-radius: 40px;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: darkseagreen;
+    font-size: 1rem;
+}
+
+.buttonreset:hover{
+    color: white;
+    background: darkseagreen;
+}
